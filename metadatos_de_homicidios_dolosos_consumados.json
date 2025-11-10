@@ -1,0 +1,160 @@
+{
+    "atributos": [
+        {
+            "descripcion": "IDENTIFICADOR ÚNICO DE VÍCTIMA",
+            "informacionAdicional": "Esta variable es creada únicamente con el objetivo de facilitar el procesamiento de los datos. A los efectos de anonimizar la información, no se corresponde con ninguna variable administrativa que identifique a la víctima del homicidio.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ID_VICTIMA"
+        },
+        {
+            "descripcion": "FECHA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "Date",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "FECHA"
+        },
+        {
+            "descripcion": "AÑO DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "AÑO"
+        },
+        {
+            "descripcion": "MES DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "MES"
+        },
+        {
+            "descripcion": "TRIMESTRE DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "TRIMESTRE"
+        },
+        {
+            "descripcion": "DÍA DE LA SEMANA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "DIA_SEMANA"
+        },
+        {
+            "descripcion": "HORA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "Refiere a la hora simple de ocurrencia del evento. Existen casos donde no se conoce con precisión la hora que ocurre el hecho. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "HORA"
+        },
+        {
+            "descripcion": "DEPARTAMENTO DONDE OCURRE EL EVENTO",
+            "informacionAdicional": "Indica el Departamento donde ocurrió el homicidio tal como se registró al ingresar el caso en el Sistema de Gestión de Seguridad Pública, a excepción de los homicidios ocurridos en CENTROS CARCELARIOS los cuales se registran bajo esta categoría.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "DEPARTAMENTO"
+        },
+        {
+            "descripcion": "SECCIONAL POLICIAL DE JURISDICCIÓN DEL EVENTO",
+            "informacionAdicional": "Indica la Jurisdicción Policial donde ocurrió el homicidio tal como se registró al ingresar el caso en el Sistema de Gestión de Seguridad Pública. Es importante tener en cuenta que los límites administrativos de las jurisdicciones policiales han cambiado durante el período, generándose incluso nuevas jurisdicciones. Por tal motivo, no es recomendable efectuar comparaciones interanuales con esta variable sin conocer dichas modificaciones. Existen casos donde la Jurisdicción del evento corresponde a Prefectura del Puerto del departamento, por tal motivo para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "JURISDICCION"
+        },
+        {
+            "descripcion": "LUGAR DE OCURRENCIA",
+            "informacionAdicional": "Lugar de ocurrencia del evento. Disponible a partir del año 2015.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "LUGAR"
+        },
+        {
+            "descripcion": "MOTIVO APARENTE",
+            "informacionAdicional": "Indica el motivo o las circunstancias  (aparentes) que precipitaron el evento.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "MOTIVO_APARENTE"
+        },
+        {
+            "descripcion": "TIPO DE RAPIÑA/ HURTO/COPAMIENTO",
+            "informacionAdicional": "Indica el tipo para los casos donde el motivo aparente es RAPIÑA/ HURTO/COPAMIENTO. Para los demás casos asume la categoría “NO CORRESPONDE.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "TIPO"
+        },
+        {
+            "descripcion": "TIPO DE ARMA",
+            "informacionAdicional": "Indica el tipo de arma utilizada por el agresor en el evento. Existen casos donde no se conoce con precisión el tipo de arma que dio muerte a la víctima del homicidio. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ARMAREC"
+        },
+        {
+            "descripcion": "EXISTENCIA DE PROCESADOS",
+            "informacionAdicional": "Indica la existencia de al menos un autor procesado/formalizado por el hecho. La categoría autor fallecido, se utiliza para los casos donde el autor cometió suicidio luego del hecho o fallece antes de que lo procesen/formalicen (por ejemplo por ser abatido durante un procedimiento policial).",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "PROCESADOS"
+        },
+        {
+            "descripcion": "EXISTENCIA DE MENORES C/INICIO DE PROCEDIMIENTO",
+            "informacionAdicional": "Indica la existencia de al menos un autor menor con inicio de procedimiento por el hecho. La categoría autor menor fallecido, se utiliza para los casos donde el autor menor cometió suicidio luego del hecho o fallece antes de que le inicien procedimiento.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "MENORESCINICIOPROC"
+        },
+        {
+            "descripcion": "ACLARACIÓN DEL EVENTO",
+            "informacionAdicional": "Indica la existencia de resolución judicial imputando el homicidio a alguna persona.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ACLARADO"
+        },
+        {
+            "descripcion": "SEXO DE LA VICTIMA",
+            "informacionAdicional": "Indica el sexo de la víctima, existen casos donde no se conoce la identidad de la víctima. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "SEXO"
+        },
+        {
+            "descripcion": "EDAD DE LA VICTIMA",
+            "informacionAdicional": "Indica la edad de la víctima al momento del hecho, existen casos donde no se conoce la edad de la víctima. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "EDADCALC"
+        },
+        {
+            "descripcion": "NACIONALIDAD DE LA VÍCTIMA",
+            "informacionAdicional": "Indica la nacionalidad de la víctima de homicidio tal como se registró al ingresar el caso en el Sistema de Gestión de Seguridad Pública. Existen casos donde no se conoce la nacionalidad de la víctima. Por tal motivo, para esos casos no se presentan datos en esa variable. Disponible a partir del año 2018.",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "NACIONALIDAD"
+        },
+        {
+            "descripcion": "ANTECEDENTES DE LA VICTIMA",
+            "informacionAdicional": "Indica Antecedentes judiciales (procesamientos o formalizaciones) de la víctima. Existen casos donde no se conocen los antecedentes. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ANTECEDENTES"
+        },
+        {
+            "descripcion": "ANTECEDENTES POR ESTUPEFACIENTES",
+            "informacionAdicional": "Indica Antecedentes judiciales por estupefacientes de la víctima. Existen casos donde no se conocen los antecedentes por estupefacientes de la víctima. Por tal motivo, para esos casos no se presentan datos en esa variable.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ANTECEDENTESPORESTUPEFACIENTES"
+        },
+        {
+            "descripcion": "RELACIÓN CON EL AGRESOR",
+            "informacionAdicional": "Indica el tipo de relación entre la víctima y el agresor. Se debe tener en cuenta que el tipo de relación que se registra es desde la víctima hacia el autor. Existen casos, incluso aclarados, en que se desconoce el vínculo entre la víctima y el agresor, ya que no se puede determinar, de la lectura del evento ingresado en el Sistema de Gestión de Seguridad Pública dicha información.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "REL_VICT_AGRES"
+        }
+    ],
+    "titulo": "Metadatos de homicidios dolosos consumados en todo el país",
+    "descripcion": "Este recurso cuenta con los datos descriptivos sobre los homicidios dolosos consumados."
+}

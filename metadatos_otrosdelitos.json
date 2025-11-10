@@ -1,0 +1,111 @@
+{
+    "atributos": [
+        {
+            "descripcion": "IDENTIFICADOR ÚNICO DEL EVENTO",
+            "informacionAdicional": "Esta variable es creada únicamente con objetivo de facilitar el procesamiento de los datos. A los efectos de anonimizar la información, no se corresponde con ninguna variable administrativa que identifique el evento.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "ID_EVENTO"
+        },
+        {
+            "descripcion": "TIPO DE DELITO",
+            "informacionAdicional": "Indica el tipo de delito según la carátula con que está registrado en el Sistema de Gestión de Seguridad Pública. La cateoría “LESIONES” incluye los delitos de Lesiones Personales (Artículo 316, CP), Lesiones Graves (Artículo 317, CP) y Lesiones Gravísimas (Artículo 318, CP).",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "DELITO"
+        },
+        {
+            "descripcion": "TIPO DE VÍCTIMA EN RAPIÑAS",
+            "informacionAdicional": "Esta variable refiere a los tipos de víctimas para el delito de Rapiña, para los demás delitos asume la categoría de “NO CORRESPONDE”.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "VICT_RAP"
+        },
+        {
+            "descripcion": "TIPO DE VÍCTIMA EN HURTOS",
+            "informacionAdicional": "Esta variable refiere a los tipos de víctimas para el delito de Hurto, para los demás delitos asume la categoría de “NO CORRESPONDE”.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "VICT_HUR"
+        },
+        {
+            "descripcion": "EVENTO TENTATIVO",
+            "informacionAdicional": "La categoría “SI” indica eventos tentativos. La categoría “NO” indica eventos consumados.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "TENTATIVA"
+        },
+        {
+            "descripcion": "FECHA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "Date",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "FECHA"
+        },
+        {
+            "descripcion": "AÑO  DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "AÑO"
+        },
+        {
+            "descripcion": "MES DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "MES"
+        },
+        {
+            "descripcion": "SEMESTRE DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "SEMESTRE"
+        },
+        {
+            "descripcion": "TRIMESTRE DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "TRIMESTRE"
+        },
+        {
+            "descripcion": "DÍA DE LA SEMANA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "DIA_SEMANA"
+        },
+        {
+            "descripcion": "HORA DE OCURRENCIA DEL EVENTO",
+            "informacionAdicional": "Los delitos de Hurto y Abigeato no suelen ocurrir en presencia de la víctima, esto dificulta la posibilidad de conocer con presición la hora en que ocurre el evento delictivo. Por tal motivo, para estos delitos no se presentan datos en esta variable. Los casos de hurtos a transeúntes (arrebatos) constituyen una excepción, dado que la presencia de las víctimas está asegurada, para estos eventos se reporta la hora de ocurrencia.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "HORA"
+        },
+        {
+            "descripcion": "DEPARTAMENTO DONDE OCURRE EL EVENTO.",
+            "informacionAdicional": "Indica el Departamento donde ocurrió el evento delictivo tal como se registró al ingresar el caso en el Sistema de Gestión de Seguridad Pública.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "DEPTO"
+        },
+        {
+            "descripcion": "SECCIONAL POLICIAL DE JURISDICCIÓN DEL EVENTO",
+            "informacionAdicional": "Indica la Jurisdicción Policial donde ocurrió el evento delictivo tal como se registró al ingresar el caso en el Sistema de Gestión de Seguridad Pública. Es importante tener en cuenta que los límites administrativos de las jurisdicciones policiales han cambiado durante el período, generándose incluso nuevas jurisdicciones. Por tal motivo, no es recomendable efectuar comparaciones interanuales con esta variable sin conocer dichas modificaciones.",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "JURISDICCION"
+        },
+        {
+            "descripcion": "BARRIO DE MONTEVIDEO DONDE OCURRE EL EVENTO",
+            "informacionAdicional": "Para los eventos delictivos ocurridos en el Departamento de Montevideo, indica el barrio donde sucedieron. Para los demás eventos asume la categoría de “NO CORRESPONDE”. Esta variable fue construida mediane georreferenciación, cruzando las coordenadas geográficas del evento con un shapefile de barrios elaborado por el Instituto Nacional de Estadísticas (https://www.gub.uy/instituto-nacional-estadistica/datos-y-estadisticas/estadisticas/mapas-vectoriales-ano-2011)",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "BARRIO_MONTEVIDEO"
+        }
+    ],
+    "titulo": "Metadatos de denuncias de otros delitos",
+    "descripcion": "Este recurso cuenta con los datos descriptivos sobre los denuncias de otros delitos."
+}
